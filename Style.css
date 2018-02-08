@@ -96,8 +96,7 @@
     position: absolute;
     background-color: white;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5);
 }
 
 .dropdown-content a {
@@ -110,20 +109,25 @@
 }
 
 .dropdown-content a:hover {
-    background-color: #f4f0e6;
+    background-color: transparent;
+    border-radius: 25px;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+    margin-left: 10px;
+    border-radius: 25px;
 }
 
 .dropdown:hover .dropbtn {
-    background-color: white;
+    background-color: transparent;
+    border-radius: 25px;
 }
 
 .container {
     display: inline-block;
     cursor: pointer;
+
 }
 
 .bar1,
@@ -159,6 +163,7 @@
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 50px;
 
 }
 
