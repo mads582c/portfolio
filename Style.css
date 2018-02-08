@@ -189,3 +189,70 @@
     font-family: 'Oswald', sans-serif;
 
 }
+
+/*stilart*/
+#tekst {
+    text-align: center;
+    display: block;
+}
+
+.columnonetxt h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    margin-top: -50px;
+}
+
+.columnonetxt h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.columntwotxt p {
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+a {
+    text-align: center;
+    color: black;
+}
+
+a:link,
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color:darkseagreen ;
+}
+
+a:active {
+    text-decoration: none;
+    color: darkseagreen;
+}
+
+/*pdf*/
+.responsive-object embed {
+    height: 40vw;
+    width: 60%;
+    text-align: center;
+}
+
+.web #slider {
+    text-align: center;
+    background-color:darkcyan;
+    display: block;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.columntxt p {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 2vw;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 45px;
+}
