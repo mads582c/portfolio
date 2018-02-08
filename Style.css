@@ -9,7 +9,7 @@
 #splash {
     width: 100vw;
     height: 167vw;
-    background-image: url(splash-assets/mobile_portrait.jpg);
+    background-image: url(img/spalsh_tablet_portrait.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -100px;
@@ -26,7 +26,7 @@
 
 @media screen and (min-width: 0px) and (orientation: landscape) {
     #splash {
-        background-image: url(splash-assets/mobile_landscape.jpg);
+        background-image: url(img/spalsh_mobil_landscape.jpg);
         height: 59vw;
         width: 100vw;
         margin-top: -100px
@@ -44,7 +44,7 @@
 
 @media screen and (min-width: 376px) and (orientation: portrait) {
     #splash {
-        background-image: url(splash-assets/tablet_portrait.jpg);
+        background-image: url(img/spalsh_mobil_portrait.jpg);
         height: 133vw;
     }
     #splash .logo img {
@@ -57,7 +57,7 @@
 
 @media screen and (min-width: 628px) and (orientation: landscape) {
     #splash {
-        background-image: url(splash-assets/tablet_landscape.jpg);
+        background-image: url(img/spalsh_tablet_landscape.jpg);
         height: 75vw;
         margin-top: -100px;
     }
@@ -67,7 +67,7 @@
 
 @media screen and (min-width: 899px) and (orientation: landscape) {
     #splash {
-        background-image: url(splash-assets/desktop.jpg);
+        background-image: url(img/spalsh_desktop.jpg);
         height: 56vw;
         margin-top: -100px;
     }
