@@ -246,7 +246,7 @@ a:active {
     text-align: center;
 }
 
-.web #slider {
+ #slider {
     text-align: center;
     background-color:darkcyan;
     display: block;
@@ -261,3 +261,43 @@ a:active {
     padding-bottom: 25px;
     font-size: 45px;
 }
+
+/*Om*/
+#mig {
+    background-color: darkcyan;
+    margin-top: -100px;
+}
+
+#mig h1 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 65px;
+    margin-bottom: 3vw;
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    background-color: white;
+}
+
+#mig img {
+    width: 28vw;
+    margin-left: 36vw;
+    background-color: darkcyan;
+    border-radius: 125px;
+}
+
+
+#mig p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    background-color: darkcyan;
+}
+
+
+
+
+
