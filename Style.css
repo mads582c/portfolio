@@ -136,3 +136,56 @@
     transition: 0.5s;
     border-radius: 25px;
 }
+
+/*menu*/
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+    flex-basis: 350px;
+    flex-grow: 1;
+    height: auto;
+    margin: 5px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1.5s ;
+    background-color: white;
+}
+
+.container:hover .overlay {
+    opacity: 0.9;
+}
+
+.text {
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Oswald', sans-serif;
+
+}
